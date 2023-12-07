@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Угадайка</title>
+  
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+ <div class="main-container"> 
+    <div class="container-top">
+        <h3 class="container-top-header" id="top-header"> Введите число от 1 до 100, а я угадаю его</h3>
+        <h3 id="answer-text"></h3>
+    </div>
+    <div class="container-middle"> 
+        <input type = "text" class="input" id="input-min" placeholder="Введите минимальное число">
+        <input type = "text" class="input" id="input-max" placeholder="Введите максимальное число">
+        <button class="starts" id="start">Старт >>></button>
+        </div>
+        <div class="container-bottom">
+        <button class="btn-check" id="btn-low">Меньше</button>
+        <button class="btn" id="rewind">Верно</button>
+        <button class="btn-check" id="btn-high">Больше</button>
+        </div>
+        <div class="retry-div">
+            <button class="btn-retry" id="btn-rtr">Заново</button>
+        </div>
+        <div class="retry-div">
+            <h4 id="question-number"></h4>
+        
+            
+        </div>
+    </div>
+    <div class="errors"> 
+        <h3 id="error"></h3>
+     
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+

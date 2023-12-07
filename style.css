@@ -1,0 +1,133 @@
+.main-container{ 
+    width: 500px;
+    height: 480px; 
+    margin: 0 auto;
+    margin-top: 250px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container-top{ 
+    width: 100%;
+    height: 50%;
+    
+
+}
+
+.container-bottom{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+.container-middle { 
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.btn-check { 
+    padding: 10px 15px;
+    background-color: bisque;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+   transition-duration: 2s;
+
+}
+.btn-check:hover { 
+    background-color: antiquewhite;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+}
+.btn { 
+    padding: 15px 20px;
+    background-color:blanchedalmond;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+   transition-duration: 2s;
+   text-transform: uppercase;
+   
+}
+.btn:hover { 
+    background-color: greenyellow;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+}
+
+input { 
+    width: 140px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    padding: 5px 10px 5px 10px;
+
+}
+
+input::placeholder { 
+    font-size: 10px;
+}
+
+.starts{ 
+    padding: 10px 15px;
+    background-color: green;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+   transition-duration: 2s;
+
+   color: white;
+}
+
+.starts:hover { 
+    background-color: red;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+}
+
+
+
+.retry-div{ 
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container-top-header{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 140px;
+}
+
+.errors{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#error { 
+color: brown;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#answer-text{ 
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 150px;
+
+}
